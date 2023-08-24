@@ -57,12 +57,12 @@ img {
 
 /* font sizes */
 
-h2.hero.main.text {
+.hero.main.text {
     font-size: 48px;
     font-weight: bolder;
 }
 
-h2.quickinfohead {
+.quickinfohead {
     font-size: 36px;
     font-weight: bolder;
 }
@@ -139,21 +139,13 @@ body {
     display: flex;
     justify-content: space-around;
     padding-bottom: 55px;
+    margin-left: 118px;
+    margin-right: 118px;
 }
 
-h2.hero.main.text {
+.hero.main.text {
     margin-top: 0px;
     margin-bottom: 0px;
-}
-
-
-.left {
-    margin-left: 118px;
-    margin-right: 35px;
-}
-
-.right {
-    margin-right: 118px;
 }
 
 /* info */
