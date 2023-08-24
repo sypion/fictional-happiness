@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
     <title>Extravagant</title>
 </head>
 <body>
-    <div class="header">
-        <h1>Header Logo</h1>
-    </div>
-    <div class="links">
-        <ul>
-            <li><a href="#one">header link one</a></li>
-            <li><a href="#one">header link two</a></li>
-            <li><a href="#one">header link three</a></li>
-        </ul>
-    </div>
-    <div class="top">
-        <h2>This website is awesome</h2>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button>Sign Up</button>
-        <div class="img">
-        <img src="/images/main.jpg" alt="Photo of a girl overlooking ocean">
+    <div class="hero">
+        <div class="top bar">
+            <h1 class="header">Header Logo</h1>
+            <div class="links">
+                <ul>
+                    <li><a href="#one" rel="noopener noreferrer">header link one</a></li>
+                    <li><a href="#two" rel="noopener noreferrer">header link two</a></li>
+                    <li><a href="#three" rel="noopener noreferrer">header link three</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="left">
+                <h2 class="hero main text">This website is awesome</h2>
+                <p class="subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button type="button" class="hero button">Sign Up</button>
+            </div>
+            <div class="right">
+                <img class="splashimg" src="/images/main.jpg" alt="Photo of a girl overlooking ocean">
+            </div>
         </div>
     </div>
-    <div class="first-middle">
-        <h2>Some random information.</h2>
+
+    <div class="first middle">
+        <h2 class="quickinfohead">Some random information.</h2>
         <div class="cards">
             <div class="info">
               <img src="/images/1.jpg" alt="Overlooking the woods">
@@ -49,7 +57,7 @@
             </div>
         </div>
     </div>
-        <div class="second-middle">
+        <div class="second middle">
             <div class="quote">
                 <p><em>He's adopted.</em></p>
                 <div class="author">
@@ -59,13 +67,17 @@
         </div>
         <div class="bottom">
             <div class="banner">
-                <h6>Call to action! It's time!</h6>
-                <p>Sign up for our product by clicking that button right over there!</p>
-                <button>Sign Up</button>
+                <div class="message">
+                    <h3 style="margin: 0; font-weight: 600">Call to action! It's time!</h3>
+                    <p style="margin: 0; font-weight: 300">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="signup">
+                    <button class="action button" type="button">Sign Up</button>
+                </div>
             </div>
         </div>
         <div class="footer">
-            <p>Copyright © The Odin Project 2023</p>
+            <p style="color: #e5e7eb; font-weight: 200; font-size: 14px;">Copyright © The Odin Project 2023</p>
         </div> 
 </body>
 </html>
