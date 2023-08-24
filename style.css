@@ -137,10 +137,22 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 55px;
     margin-left: 118px;
     margin-right: 118px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10%;
+}
+
+.right {
+    flex-shrink: 0;
 }
 
 .hero.main.text {
